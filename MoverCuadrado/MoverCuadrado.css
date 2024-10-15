@@ -1,0 +1,16 @@
+#contenedor {
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    position: relative;
+    margin: 50px auto;
+}
+
+#jugador {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(227, 13, 234);
+    position: absolute;
+    top: 0;
+    left: 0;
+}

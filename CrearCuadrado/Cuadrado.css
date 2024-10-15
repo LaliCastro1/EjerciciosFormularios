@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#cuadrado {
+    display: grid;
+    gap: 5px;
+    margin-top: 20px;
+    max-width: 80%; 
+}
+
+.celda {
+    width: 10px; 
+    height: 10px;
+    background-color: gray; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.celda:hover {
+    background-color: darkgray;
+}

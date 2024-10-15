@@ -1,4 +1,3 @@
-// Funciones de validación
 function validateName(name) {
     const validNames = ['MasterCard', 'Visa', 'American Express'];
     return validNames.includes(name);
